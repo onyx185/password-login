@@ -1,1 +1,1 @@
-express api to encrypt and save password using bcrypt package
+express api to encrypt and save password using bcrypt package, implement JWT token authentication

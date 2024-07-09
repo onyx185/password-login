@@ -1,0 +1,26 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "user1",
+            "password": "$2b$10$3Qi8aabAXq.lkRLqRLdgBugx9Ww5TP9r1S1KmKUml5uCMeyBTXHkq"
+        },
+        {
+            "id": 2,
+            "username": "user2",
+            "password": "$2b$10$OnOx9gFVjSVbFqGSpYXZS.GMRX9hqUW2I3YUhmVUK8wWETVvBnPBG"
+        }
+    ],
+    "posts": [
+        {
+            "postId": 1,
+            "ownerId": 2,
+            "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, reprehenderit!"
+        },
+        {
+            "postId": 2,
+            "ownerId": 1,
+            "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet nulla, ipsa molestiae neque recusandae possimus sequi consectetur, tempore in cum esse, aliquam nisi quae eius!"
+        }
+    ]
+}
