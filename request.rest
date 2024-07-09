@@ -1,5 +1,11 @@
 Get http://localhost:3000/users
 
+
+###
+
+user1: password -> password2
+user2: password -> password1
+
 ### 
 
 POST http://localhost:3000/sign-up
@@ -19,3 +25,7 @@ Content-Type: application/json
     "username": "user2",
     "password": "password1"
 }
+
+### 
+GET http://localhost:3000/posts
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJ1c2VyMiIsImlhdCI6MTcyMDU0NTMxOX0.LAWTNSlPEF_15s20t3UbLESW1Z4A3u8KMhPcHDQGjVc
